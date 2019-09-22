@@ -1,1 +1,1 @@
-# rsschool-cv
+[my CV](https://braumwinter.github.io/rsschool-cv/cv)
