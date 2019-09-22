@@ -1,15 +1,29 @@
-*{}
+*{
+    box-sizing: border-box;
+}
 
-html, body{
-
+html,
+body{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 container{
-
+    display: block;
+    max-width: 1024px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 header{
-
+    display: flex;
+    width: 100%;
 }
 
 main{
@@ -17,17 +31,21 @@ main{
 }
 
 section{
-
+    display: flex;
 }
 
-#mainLinks{
-
+#main-links{    
+    width: 50%;
 }
 
 #photo{
+    width: 50%;
+}
 
+img{
+    height: 400px;
 }
 
 #information{
-    
+
 }
